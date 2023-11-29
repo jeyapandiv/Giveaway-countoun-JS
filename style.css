@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+body{
+    max-width: 1440px;
+    width: 100%;
+    background-color: #f1f4f9;
+    overflow: hidden;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    left: 200px;
+    top: 25px;
+}
+.container>* {
+    width: 50%;
+}
+
+#mobile_image {
+    border-radius: 3px;
+}
+
+#heading {
+    padding-bottom: 10px;
+    color: rgb(0,97,164);
+    font-family: 'Varela Round', sans-serif;
+}
+#Giveaway_date {
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 6px;
+    width: 90%;
+    letter-spacing: 2px;
+    color: rgb(1, 41, 85);
+    padding-bottom: 20px;
+}
+#content {
+    color: rgb(132 148 165);
+    font-family: 'Outfit', sans-serif;
+    padding-bottom: 20px;
+}
+.countoun_box {
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    height: 55px;
+    width: 80px;
+    background-color: rgb(12, 38, 66);
+    color: white;
+    margin-right: 15px;
+    text-align: center;
+}
