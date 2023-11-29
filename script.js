@@ -1,6 +1,6 @@
 "use strict"
 
-let end_date = new Date("Nov 30, 2023 13:14:20").getTime();
+let end_date = new Date("Nov 30, 2024 13:14:20").getTime();
 console.log(end_date);
 let display_time = document.querySelectorAll(".time");
 
